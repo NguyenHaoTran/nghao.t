@@ -1,12 +1,12 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Contact from './pages/Contact';
-import CustomThemeProvider from './ThemeContext';
-import CssBaseline from '@mui/material/CssBaseline';
+// import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import About from './pages/About'
+import Services from './pages/Services'
+import Contact from './pages/Contact'
+import CustomThemeProvider from './ThemeContext'
+import CssBaseline from '@mui/material/CssBaseline'
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </Router>
     </CustomThemeProvider>
-  );
+  )
 }
 
-export default App;
+export default App

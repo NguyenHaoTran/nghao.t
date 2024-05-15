@@ -1,4 +1,5 @@
-import React from 'react';
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
 
 const Home = () => {
   return (
@@ -6,7 +7,7 @@ const Home = () => {
       <h2>Home Page</h2>
       <p>Welcome to the Home Page!</p>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
