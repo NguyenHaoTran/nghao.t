@@ -49,7 +49,7 @@ const Navbar = () => {
               textDecoration: 'none'
             }}
           >
-            LOGO
+            LOGo
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -108,7 +108,7 @@ const Navbar = () => {
               textDecoration: 'none'
             }}
           >
-            LOGO
+            LOGo
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
